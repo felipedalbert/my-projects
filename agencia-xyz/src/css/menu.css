@@ -78,6 +78,8 @@
 
 
 @media(max-width: 900px){
+
+
     .header .menu{
         display: block;
     }
@@ -88,9 +90,7 @@
         padding: 20px;
         background-color: #fff;
         animation: hide-item .4s forwards;
-        
     }
-
 
     @keyframes emerge {
         from { 
@@ -115,9 +115,9 @@
     }
 
     .header nav{
-        position: absolute;
+        position: fixed;
         top: 8px;
-        right: 24px;
+        right: 16px;
         z-index: 1;
     }
 
